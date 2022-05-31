@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: fuente1;
+    src: url(font/LonganIberica-DEMO.ttf);
+}
+
+body{
+    background-color: rgb(240, 254, 255);
+    font-family: fuente1; 
+    margin-left: 35px; 
+    margin-right: 35px;
+
+}
+
+header{
+    background-color: beige;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.img-left{
+    float: left;
+    max-width: 40px;
+    margin-right: 35px;
+}
+
+nav{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: rgb(220, 243, 245);
+    color: cyan;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-inner img{
+    max-height: 70vh;
+}
